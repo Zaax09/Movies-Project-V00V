@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+  
+    
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.navigation{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  align-items: stretch;
+  background-color: #fff;
+  color: white;
+ 
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+}
+
+.Hello{
+    text-decoration: none;
+   margin-top: 20px;
+}
+
+.profil{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   margin-top: 7px;
+   margin: 0 50px;
+
+}
+
+.containers{
+    background: #f1f1f1;
+    height:36vh ;
+    width:100% ;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 22px;
+}
+
+#tt{
+    margin-top: 20%;
+    font-size: 3.3rem;
+    color: #000000;
+    font-family: monospace;
+    text-shadow:  0 0 6px #81d2f5;
+    
+}
+#container_1{
+    margin: 15px;
+    background: #321fdc;
+    height:26vh ;
+    width:10px ;
+    background-image: url(../img/Users_bk.jpg);
+    background-size: cover;
+}#container_2{
+    margin: 15px;
+    background: #3199ff;
+    height:26vh ;
+    width:30px ;
+    background-image: url(../img/anime_bk.jpg);
+    background-size: cover;
+}#container_3{
+    margin: 15px;
+    background: #fbb011;
+    height:26vh ;
+    width:10px ;
+    background-image: url(../img/tv_bk.jpg);
+    background-size: cover;
+}#container_4{ 
+
+    text-align: center;
+    margin: 15px;
+    background: #dc3939;
+    height:26vh ;
+    width:10px ;
+    background-image: url(../img/movie_bk.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+/* ==============   Content ===================== */
+
+
+    
+.Content{
+    background: rgb(255, 255, 255);
+    height:200vh ;
+    width:100% ;
+    padding: 25px;
+    display: grid;
+}
+
+
+#Content1{
+    margin: 15px;
+    margin-left: 10%;
+    background: #3199ff;
+    height:60vh ;
+    width:80% ;
+}#Content2{
+    margin: 15px;
+    background: #fbb011;
+    height:60vh ;
+    width:80% ;
+     margin-left: 10%;
+}#Content3{
+    margin: 15px;
+    background: #dc3939;
+    height:60vh ;
+    width:80% ;
+     margin-left: 10%;
+}
+
+
+
+/* ---------------------------- */
+
+
+
+
+
+
+
+
+.Social_media{
+    background: #f1f1f1;
+    height:20vh ;
+    width:100% ;
+    padding: 10px;
+    display: flex;
+}
+
+a{
+    color: #fff;
+}
+
+
+#media_1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background: #4667ad;
+    height:16vh ;
+    width:10px ;
+}#media_2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background: #25292f;
+    height:16vh ;
+    width:30px ;
+}#media_3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background: #0a66c2;
+    height:16vh ;
+    width:10px ;
+}
+#fb{
+    margin-top: 30px;
+}

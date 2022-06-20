@@ -1,0 +1,22 @@
+.post-box1{
+   
+      /* display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; */
+      width: 23%;
+      height: 550px;
+      overflow: hidden;
+      background-color: #ffffffc2;
+      border: 1px solid #161616b9;
+      box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
+      position: relative;
+   
+}
+.h22{
+   margin-top: 340px;
+}
+.test {
+      display: flex;
+      flex-direction: row;
+ 
+
+}
