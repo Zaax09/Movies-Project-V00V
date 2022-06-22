@@ -44,11 +44,11 @@
                                             <div class="movie-name">
                                     <span>   <?php echo $row['Date_film']; ?></span>
 
-
-                                    <a href="Movie-landing.php?movie_id=<?php echo$row['Id_film']; ?>"><?php echo $row['Titel_film']; ?></a>
-
                                     
+                                    <a href="Movie-landing.php?id=<?php echo$row['Id_film']; ?>">
+                                    <?php echo $row['Titel_film'];?></a>
 
+                                   
 
 
                                             </div>

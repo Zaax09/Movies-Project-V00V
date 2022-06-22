@@ -6,6 +6,9 @@
     
 
 }
+body{
+    background-color: #000;
+}
 a{
     text-decoration: none;
     color: #000;
@@ -16,7 +19,7 @@ a{
     padding: 0;
     display: flex;
   align-items: stretch;
-  background-color: #fff;
+  background-color: #171717;
   color: white;
  
   text-align: center;
@@ -39,7 +42,7 @@ a{
 }
 
 .containers{
-    background: #f1f1f1;
+    background: #000000;
     height:36vh ;
     width:100% ;
     padding: 25px;
@@ -100,7 +103,7 @@ a{
 
     
 .Content{
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     height:200vh ;
     width:100% ;
     padding: 25px;
