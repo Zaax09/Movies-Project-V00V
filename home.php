@@ -80,6 +80,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
                </div>
                <!--container------->
                       
+               <?php include "./Top_Movies.php"; ?>
                     
                <!--container-end--->
                </section>

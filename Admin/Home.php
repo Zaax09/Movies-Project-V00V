@@ -33,7 +33,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
           <div style="flex-grow: 2 " class="container" id="container_1"><h6 id="tt">Users</h6> </div>
           <div style="flex-grow: 2 " class="container" id="container_2"><h6 id="tt">Anime</h6></div>
           <div style="flex-grow: 2 " class="container" id="container_3"><h6 id="tt">Tv Shows</h6></div>
-          <div style="flex-grow: 2 " class="container" id="container_4"><h6 id="tt">Movies</h6></div>
+          <div style="flex-grow: 2 " class="container" id="container_4"><h6 id="tt"><a href="Movies.php">Movies</a></h6></div>
       </div>
 
 
@@ -42,6 +42,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
           <div style="flex-grow: 2 " class="container" id="Content2">Tv Shows</div>
           <div style="flex-grow: 2 " class="container" id="Content3">Movies</div>
       </div>
+      
     <!-- -------------------------------------------- -->
     <div class="Social_media">
           <a  style="flex-grow: 2 " class="conta" id="media_1" href="https://www.facebook.com/ziko.fich"><img id="fb" style="height: 50px;" src="../img/fb.png" alt=""></a>
